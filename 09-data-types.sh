@@ -8,3 +8,7 @@ NUMBER3=DevOps
 SUM=$(($NUMBER1 + $NUMBER2 + $NUMBER3))
 
 echo "Sum is: ${SUM}"
+
+LEADERS=("Viart" "Patidar" "Bhuvi" "Krunal")
+
+echo "All leaders: ${LEADERS[@]}"
