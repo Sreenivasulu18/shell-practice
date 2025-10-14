@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Please enter your PIN number"
-read PIN_NUMBER
+read  -s PIN_NUMBER     # -s is for hidden
 echo "PIN entered is : $PIN_NUMBER"
