@@ -7,11 +7,11 @@ if [ $USERID -ne 0 ]; then
 fi
 
 VALIDATE(){
-    if [ $? -ne 0 ]; then
-        echo "ERROR:: Installation $1 is FAILURE"
+    if [ $1 -ne 0 ]; then
+        echo "ERROR:: Installation $2 is FAILURE"
         exit 1
     else
-        echo "Installation $1 is SUCCESS"
+        echo "Installation $2 is SUCCESS"
 }
 
 dnf install mysql -y
