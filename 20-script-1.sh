@@ -2,7 +2,7 @@
 
 NAME=INDIA
 
-echo "My country is: $NAME"
+echo "My Country: $NAME"
 echo "PID of SCRIPT: $$"
 
-sh 21-script-2.sh
+sh 21-script-1.sh
