@@ -19,4 +19,4 @@ while IFS= read -r line; do
   # For example:
   # echo "Length of line: ${#line}"
   # Some_command "$line"
-done < 03-variable.sh
+done < 03-variables.sh
