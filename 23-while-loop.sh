@@ -12,7 +12,8 @@
 
 # echo "Times up!"
 
-while IFS= read -r line; do
+while IFS= read -r line; 
+ do
   # Process each line here
   echo "Line read: $line"
   # You can perform other operations with the '$line' variable
